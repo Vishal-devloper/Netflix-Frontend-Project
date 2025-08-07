@@ -1,0 +1,459 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    background-image:url(10005.jpg);
+    background-size:cover;
+    background-position:center;
+    height: 700px;
+    
+}
+.cus1{
+    height: 60px;
+    width: 180px;
+}
+.header-1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 70%;
+    margin: auto;
+}
+button{
+    margin-left:15px ;
+}
+.opacity{
+    background-color: rgba(18, 14, 14, 0.462);
+    height: 700px;
+}
+.text{
+    display: flex;
+    color: white;
+    align-items: center;
+    vertical-align: middle;
+    justify-content: center;
+    flex-direction: column;
+    height: 600px;
+    text-align: center;
+}
+.text h1{
+    font-size: 48px;
+    font-weight: 900;
+}
+.text p{
+    font-size: 24px;
+}
+.text h3{
+    font-size: 20px;
+}
+.text input{
+    padding: 24px 16px;
+    width: 375px;
+    height: 58px;
+    background-color: rgba(17, 15, 15, 0.589);
+    border: none;
+    margin-left: 15px;
+    color: white;
+}
+.text button{
+    font-size: 20px;
+    font-weight: 800;
+    padding: 10px 27px;
+}
+.email{
+    margin-top: 10px;
+}
+.box{
+    width: 100%;
+    background-color: black;
+    border-top: 15px solid rgba(23, 17, 17, 0.889);
+    
+}
+.blank1{
+    width: 100%;
+    padding: 72px 0px;
+    background-color: black;
+}
+.box-content,.box-content-1{
+    display: flex;
+    align-items: center;
+    width: 80%;
+    margin: auto;
+
+}
+.box-1{
+    width: 50%;
+}
+.box-2{
+    width: 50%;
+}
+.box-1 h2{
+    font-size: 48px;
+    font-weight: 900;
+    color:white;
+}
+.box-1 p{
+    font-size: 24px;
+    color: white;
+}
+
+.screen{
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+
+}
+    
+.box-2{
+    background-color: black;
+}
+.video{
+    /* display: flex; */
+    position: relative;
+   width: 100%;
+
+}
+.file{
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    position: absolute;
+}
+.file img{
+    width: 100%;
+    overflow: hidden;
+}
+.vid-img video{
+    
+    width: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+.video{
+    height: 100%;
+}
+.vid-img{
+    padding-top: 0px;
+    padding-left: 53px;
+}
+.file2 img{
+    width: 100%;
+    height: 100%;
+}
+.anime{
+    border: 1px solid white;
+    border-radius: 20px;
+    height: 103px;
+    width: 50%;
+    background-color: black;
+    padding-bottom: 20px;
+    
+}
+.animecon{
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.con-2{
+    color: white;
+}
+.con-2 p{
+    font-size: 16px;
+}
+
+.con-2 span{
+    font-size: 14px;
+    color: blue;
+}
+
+.video2{
+    text-align: -webkit-center;
+}
+.con-1{
+    width: 20%;
+    background-image: url(10008.png);
+    background-size:cover;
+    background-position:center;
+    height: 80px;
+}
+.con-2{
+    width: 50%;
+}
+.con-3{
+    width: 30%;
+    background-image: url(10013.gif);
+    background-size:cover;
+    background-position:center;
+    height: 87px;
+}
+.vid-img-1{
+    position: absolute;
+    top: 9%;
+    left: 18%;
+    
+}
+.vid-img-1 video{
+    max-width: 78%;
+    width: 100%;
+}
+.file-1{
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+}
+.file-1 img{
+    width: 100%;
+}
+.last{
+    
+    background-color: black;
+    color: white;
+    border-top: 15px solid rgba(23, 17, 17, 0.889);
+    border-bottom: 15px solid rgba(23, 17, 17, 0.889);
+    width: 100%;
+}
+.content h2{
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 17px;
+    text-align: center;
+}
+.contact p{
+    font-size: 24px;
+    
+    padding: 24px;
+   
+    width: 70%;
+    background-color: rgb(45, 45, 45);
+}
+.contact{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+}
+.content{
+    width: 100%;
+    display: block;
+}
+.text-1{
+    display: flex;
+    color: white;
+    align-items: center;
+    vertical-align: middle;
+    justify-content: center;
+    flex-direction: column;
+    height: 200px;
+    text-align: center;
+}
+.email1 input {
+    padding: 24px 16px;
+    width: 340px;
+    height: 58px;
+    background-color: rgba(17, 15, 15, 0.589);
+    border: none;
+    margin-left: 15px;
+    color: white;
+}
+.email1 button{
+    font-size: 20px;
+    font-weight: 800;
+    padding: 10px 27px;
+}
+.laster{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+footer{
+    background-color: black;
+    color: white;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.para{
+    margin-left: 198px;
+}
+.footcon p{
+    color: white;
+}
+.footcon p a{
+   text-decoration: none;
+   color: white;
+
+}
+.menu{
+    z-index: 99999;
+}
+
+@media only screen and (max-width:330px) {
+    .cus1{
+        width: 130px;
+    }
+}
+@media only screen and (max-width:900px){
+    .text input{
+        width: 260px;
+        height: 45px;
+        margin: 10px 0px;
+    }
+    .text button{
+        padding: none;
+    }
+    .box-content{
+        width: 100%;
+        padding: 0px 30px;
+    }
+    .box-1 ,.box-2{
+        width: 100%;
+    }
+    .box-content{
+        width: 100%;
+        flex-wrap: wrap;
+        text-align: center;
+        
+    }
+    .vid-img{
+        padding-top: 0px;
+        padding-left: 10px;
+    }
+    .box-1{
+        padding: 30px 0px;
+    }
+    .anime{
+        width: 50%;
+        height: 83px;
+    }
+    .animecon{
+        padding: 5px;
+    }
+    .con-1,.con-3{
+        height: 65px;
+        padding: 20px;
+    }
+    .box-content-1{
+        width: 100%;
+        flex-wrap: wrap-reverse;
+        text-align: center;
+    }
+    .vid-img-1 video{
+        
+        width: 100%;
+    }
+    .vid-img-1{
+        top: 34%;
+    left: 49%;
+    transform: translate(-50%, -50%);
+    }
+    .file-1 img{
+        width: 66%;
+    }
+    .text-1 h3{
+        font-size: 18px;
+        width: 90%;
+        margin: auto
+    }
+    .content h2{
+        font-size: 32px;
+    }
+    .laster{
+       flex-wrap: wrap;
+        height: 100%;
+    }
+    .footcon{
+        width: 50%;
+        text-align: center;
+    }
+    .email1 input{
+        width: 260px;
+        height: 45px;
+        margin: 10px 0px;
+    }
+    .email1 button{
+        padding: 6px;
+    }
+
+
+}
+@media only screen and (max-width: 600px) {
+    .header-1{
+        width: 98%;
+    }
+    .text h1{
+        font-size: 32px;
+    }
+    .text p{
+        font-size: 18px;
+        line-height: 1.5;
+        font-weight: 400;
+        padding: 0px 15px;
+    }
+    .text h3{
+        font-size: 1.125rem;
+        line-height: 1.5;
+        font-weight: 400;
+        padding: 0px 55px;
+    }
+    .text input{
+        padding: 20px 16px;
+        
+    }
+    .box-1 h2{
+        font-size: 32px;
+    }
+    .box-1 p{
+        font-size: 1.125rem;
+    }
+    .blank1{
+        padding: 50px 0px;
+    }
+    .box-1{
+        padding: 30px 0px;
+    }
+    .con-2 p,span{
+        font-size: 10px;
+    }
+    .con-1,.con-3{
+        height: 50px;
+    }
+    .animecon{
+        padding: 5px 12px;
+    }
+    .file-1 img{
+        width: 100%;
+    }
+    .vid-img-1{
+        width: 66%;
+    }
+    .vid-img-1 video{
+        max-width: 100%;
+        width: 100%;
+    }
+    .contact p{
+        font-size: 15px;
+        padding: 15px;
+    }
+    .footcon{
+        width: 50%;
+        text-align: center;
+    }
+    .para{
+        margin: 0;
+        text-align: center;
+    }
+    
+}
+@media only screen and (max-width:1300px){
+   .anime{
+    width: 70%;
+   }
+}
