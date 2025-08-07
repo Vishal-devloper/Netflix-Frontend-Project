@@ -5,7 +5,7 @@
 }
 header{
     width: 100%;
-    background-image:url(10005.jpg);
+    background-image:url(images/10005.jpg);
     background-size:cover;
     background-position:center;
     height: 700px;
@@ -176,7 +176,7 @@ button{
 }
 .con-1{
     width: 20%;
-    background-image: url(10008.png);
+    background-image: url(images/10008.png);
     background-size:cover;
     background-position:center;
     height: 80px;
@@ -186,7 +186,7 @@ button{
 }
 .con-3{
     width: 30%;
-    background-image: url(10013.gif);
+    background-image: url(images/10013.gif);
     background-size:cover;
     background-position:center;
     height: 87px;
